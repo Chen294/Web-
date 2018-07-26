@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	
+</head>
+
+<body onLoad="init()">
+	<video id="MyVideo" loop autoplay src="video.mp4" controls onPlay="ShowImg(true);" onPause="ShowImg(false)"></video>
+	<img id="pic" src="img.jpg" />
+	
+</body>
+	<script language="JavaScript">
+		var video,img,flag;
+		function init() {
+			video=document.getElementById("MyVideo");
+			video.style.position="absolute";
+			video.style.width="400px";
+			video.style.height="300px";
+			video.style.left="50px";
+			video.style.top="50px";
+			img=document.getElementById("pic");
+			img.style.position="absolute";
+			img.style.width="340px";
+			img.style.height="160px";
+			img.style.left="80px";
+			img.style.top="120px";
+			img.style.zIndex=3;
+			img.hidden=true;
+		}
+		function ShowImg(flag) {
+			img.hidden=flag;
+		}
+	</script>
+</html>
