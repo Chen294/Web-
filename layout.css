@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Arial;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#Containter{
+	margin: auto;
+	width: 100%;
+}
+
+#Header{
+	height: 150px;
+	background: #7DC85F;
+	margin-bottom: 5px;
+}
+
+#Menu{
+	height: 30px;
+	background: #E01F23;
+	margin-bottom: 5px;
+}
+
+#MainContent{
+	height: 400px;
+	margin-bottom: 5px;
+}
+
+#Sidebar1{
+	float: left;
+	width: 200px;
+	height: 100%;
+	background: #137DA7;
+}
+
+#Sidebar2{
+	float: right;
+	width: 200px;
+	height: 100%;
+	background: #D510A9;
+}
+
+#Content{
+	margin: 0 205px;
+	height: 100%;
+	background: #CEF709;
+}
+
+#Footer{
+	height: 60px;
+	background: #0D0CEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
